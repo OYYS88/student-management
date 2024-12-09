@@ -1,10 +1,6 @@
 # 									**学生成绩管理系统**
 
-## 一、项目启动
-
-
-
-## 二、项目介绍
+## 一、项目介绍
 
 ### 1、开发环境及工具
 
@@ -102,48 +98,49 @@ student-management
 - **Mock.js**: 数据模拟工具，用于生成模拟数据。
 - **ES6+**: 现代 JavaScript 语法，提高代码的可读性和可维护性。
 
-### 8. 用户界面与交互
+  ### 8. 用户界面与交互
 
-- **登录页面**: 用户输入用户名和密码进行登录。
+  - **登录页面**: 用户输入用户名和密码进行登录。
 
-![](D:\Users\Desktop\作业\Vue\实验报告\img\login.png)
+  ![](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\login.png)
 
-- **主页**: 显示系统的主要导航，包括成绩管理、成绩分析、课程信息、专业介绍和成绩修改。
+  - **主页**: 显示系统的主要导航，包括成绩管理、成绩分析、课程信息、专业介绍和成绩修改。
 
-![](D:\Users\Desktop\作业\Vue\实验报告\img\home.png)
+  ![](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\home.png)
 
-- **成绩管理页面**: 管理员拥有成绩查询、筛选、删除、修改和导出功能，可以通过输入框和下拉菜单进行筛选，点击按钮执行相应操作。
+  - **成绩管理页面**: 管理员拥有成绩查询、筛选、删除、修改和导出功能，可以通过输入框和下拉菜单进行筛选，点击按钮执行相应操作。
 
-![deleteAll2](D:\Users\Desktop\作业\Vue\实验报告\img\deleteAll.png)
+  ![deleteAll2](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\deleteAll.png)
 
-![deleteAll](D:\Users\Desktop\作业\Vue\实验报告\img\deleteAll2.png)
+  ![deleteAll](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\deleteAll2.png)
 
-![联系学生](D:\Users\Desktop\作业\Vue\实验报告\img\联系学生.png)
+  ![联系学生](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\联系学生.png)
 
-![修改成绩](D:\Users\Desktop\作业\Vue\实验报告\img\修改成绩.png)
+  ![修改成绩](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\修改成绩.png)
 
-- **成绩分析页面**: 通过图表展示学生的成绩分布，帮助管理员直观地了解学生的整体表现。
+  - **成绩分析页面**: 通过图表展示学生的成绩分布，帮助管理员直观地了解学生的整体表现。
 
-![成绩分析页面](D:\Users\Desktop\作业\Vue\实验报告\img\成绩分析页面.png)
+  ![成绩分析页面](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\成绩分析页面.png)
 
-![成绩分析页面2](D:\Users\Desktop\作业\Vue\实验报告\img\成绩分析页面2.png)
+  ![成绩分析页面2](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\成绩分析页面2.png)
 
-- **课程信息页面**: 展示课程列表和详细信息，包括课程名称、授课教师、所教科目等。
+  - **课程信息页面**: 展示课程列表和详细信息，包括课程名称、授课教师、所教科目等。
 
-![课程介绍页面](D:\Users\Desktop\作业\Vue\实验报告\img\课程介绍页面.png)
+  ![课程介绍页面](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\课程介绍页面.png)
 
-- **专业介绍页面**: 展示专业的基本信息和链接，用户可以点击链接查看详细的介绍。
+  - **专业介绍页面**: 展示专业的基本信息和链接，用户可以点击链接查看详细的介绍。
 
-![专业介绍](D:\Users\Desktop\作业\Vue\实验报告\img\专业介绍.png)
+  ![专业介绍](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\专业介绍.png)
 
-- **成绩修改页面**: 允许管理员修改学生的成绩信息，包括学生学号、课程代码、课程成绩等。
+  - **成绩修改页面**: 允许管理员修改学生的成绩信息，包括学生学号、课程代码、课程成绩等。
 
-![改成绩](D:\Users\Desktop\作业\Vue\实验报告\img\改成绩.png)
+  ![改成绩](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\改成绩.png)
 
-### 9. 性能分析与优化
+  ### 9. 性能分析与优化
 
-- **懒加载**: 使用 Vue Router 的懒加载功能，按需加载组件，减少初始加载时间。
-- **代码分割**: 通过 Webpack 的代码分割功能，将代码分成多个小块，按需加载。
-- **虚拟列表**: 在成绩管理页面使用虚拟列表技术，避免一次性渲染大量数据，提高页面性能。
-- **缓存优化**: 使用 Vuex 的持久化插件，缓存用户信息，减少重复请求。
+  - **懒加载**: 使用 Vue Router 的懒加载功能，按需加载组件，减少初始加载时间。
+  - **代码分割**: 通过 Webpack 的代码分割功能，将代码分成多个小块，按需加载。
+  - **虚拟列表**: 在成绩管理页面使用虚拟列表技术，避免一次性渲染大量数据，提高页面性能。
+  - **缓存优化**: 使用 Vuex 的持久化插件，缓存用户信息，减少重复请求。
 
+ 
