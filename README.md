@@ -101,41 +101,23 @@ student-management
   ### 8. 用户界面与交互
 
   - **登录页面**: 用户输入用户名和密码进行登录。
-
-  ![](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\login.png)
-
+ ![image](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/login.png)
   - **主页**: 显示系统的主要导航，包括成绩管理、成绩分析、课程信息、专业介绍和成绩修改。
-
-  ![](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\home.png)
-
+ ![image](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/home.png)
   - **成绩管理页面**: 管理员拥有成绩查询、筛选、删除、修改和导出功能，可以通过输入框和下拉菜单进行筛选，点击按钮执行相应操作。
-
-  ![deleteAll2](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\deleteAll.png)
-
-  ![deleteAll](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\deleteAll2.png)
-
-  ![联系学生](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\联系学生.png)
-
-  ![修改成绩](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\修改成绩.png)
-
+  ![deleteAll2](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/deleteAll.png)
+  ![deleteAll](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/deleteAll2.png)
+  ![联系学生](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/联系学生.png)
+  ![修改成绩](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/修改成绩.png)
   - **成绩分析页面**: 通过图表展示学生的成绩分布，帮助管理员直观地了解学生的整体表现。
-
-  ![成绩分析页面](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\成绩分析页面.png)
-
-  ![成绩分析页面2](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\成绩分析页面2.png)
-
+  ![成绩分析页面](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/成绩分析页面.png)
+  ![成绩分析页面2](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/成绩分析页面2.png)
   - **课程信息页面**: 展示课程列表和详细信息，包括课程名称、授课教师、所教科目等。
-
-  ![课程介绍页面](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\课程介绍页面.png)
-
+  ![课程介绍页面](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/课程介绍页面.png)
   - **专业介绍页面**: 展示专业的基本信息和链接，用户可以点击链接查看详细的介绍。
-
-  ![专业介绍](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\专业介绍.png)
-
+  ![专业介绍](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/专业介绍.png)
   - **成绩修改页面**: 允许管理员修改学生的成绩信息，包括学生学号、课程代码、课程成绩等。
-
-  ![改成绩](D:\Users\Desktop\作业\Vue\Vue3_OYYS\student-management\项目运行\改成绩.png)
-
+  ![改成绩](https://github.com/OYYS88/student-management/blob/main/%E9%A1%B9%E7%9B%AE%E8%BF%90%E8%A1%8C/改成绩.png)
   ### 9. 性能分析与优化
 
   - **懒加载**: 使用 Vue Router 的懒加载功能，按需加载组件，减少初始加载时间。
